@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Estructura Básica del Documento HTML</title>
+</head>
+<body>
+	<header>
+        <h1> <p style="text-align:center">HTML</p></h1>
+		<nav>
+			<ul>
+				<li><a href="#Estructura">Ir a Estructura</a></li>
+		    	<li><a href="#Multimedia">Ir a Multimedia</a></li>
+				<li><a href="#Formulario">Ir a Formulario</a></li>
+			</ul>
+		</nav>
+    </header>
+
+	<section>
+		<article>
+			<ol>
+			    <h2><a name="Estructura"></a><li>Estructura Básica del Documento HTML</li></h2>
+			    <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+				
+				<h2><li>Encabezados y Propiedades del Texto</li></h2>
+				<p>
+					<b>Este es un texto en negrita</b> <br>
+					<i>Este es un texto en cursiva</i> <br>
+					<u>Este es un texto subrayado</u>
+				</p>
+				<h4><p style="color:blue">Este es un texto en h4</p></h4>
+				<h5><p style="color:red">Este es un texto en h5</p></h5>
+				<h6><p style="color:green">Este es un texto en h6</p></h6>
+				
+				<h2><li>Divisiones y Agrupación de Contenido</li></h2>
+				<div>
+					<h3><p>Sección 1</p></h3>
+					<p>Contenido de la primera sección agrupada en un div</p>
+				</div>
+				<div>
+					<h3><p>Sección 2</p></h3>
+					<p>Contenido de la segunda sección agrupada en un div</p>
+				</div>
+				
+				<h2><li>Enlaces y Listas</li></h2>
+				<p>Visita <a href="https://www.google.com/webhp?hl=es&sa=X&ved=https://www.google.com/webhp?hl=es-419&sa=X&ved=https://www.youtube.com/watch?v=FcZ_D5jsilM&list=PLRFOqDrY-6ns2FQdjmqx3ShGLRLj9ESPE&index=4" target="_blank">google</a> para más información</p>
+				<p>Enlaces internos:</p>
+				<ul>
+					<li><a href="#Estructura">Ir a Estructura</a></li>
+					<li><a href="#Multimedia">Ir a Multimedia</a></li>
+					<li><a href="#Formulario">Ir a Formulario</a></li>
+				</ul>
+				<p>Lista desordenada:</p>
+				<ul>
+					<li>Primer ítem de una lista desordenada</li>
+					<li>Segundo ítem de una lista desordenada</li>
+				</ul>
+				<p>Lista ordenada:</p>
+				<ol>
+					<li>Primer ítem de una lista ordenada</li>
+					<li>Segundo ítem de una lista ordenada</li>
+				</ol>
+			</ol>
+		</article>
+	</section>
+	
+	<section>
+		<article>
+			<h2><a name="Multimedia"></a><li>Elementos Multimedia</li></h2>
+			<ul>
+				<li>Imagen</li>
+				<img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="750" height="500" alt="Imagen Mario">
+				<li>Video</li>
+				<video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="750" height="500"></video>
+				<li>Audio</li>
+				<audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+			</ul>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<h2><li>Tablas</li></h2>
+			<table style="border: solid">
+				<thead>
+					<tr>
+						<td style="border: solid">Columna 1</td>
+						<td style="border: solid">Columna 2</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="border: solid">Dato 1</td>
+						<td style="border: solid">Dato 2</td>
+					</tr>
+					<tr>
+						<td style="border: solid">Dato 3</td>
+						<td style="border: solid">Dato 4</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<h2><a name="Formulario"></a><li>Formulario</li></h2>
+			<form>
+				<label for="nom">Nombre:</label>
+				<input type="text" id="nom" name="nombre"> <br>
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="gmail"> <br>
+				<label for="msg">Mensaje:</label>
+				<input type="text" id="msg" name="mensaje"> <br>
+				<input type="submit" onclick="alert('Enviado')">
+			</form>
+		</article>
+	</section>
+
+	<footer>
+		<p>2024 Trabajo Práctico de HTML</p>
+	</footer>
+</body>
+</html>
